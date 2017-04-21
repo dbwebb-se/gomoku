@@ -57,7 +57,7 @@ JSONLINT   	:= node_modules/.bin/jsonlint
 
 # Find sources
 JSON_SOURCES 	:= $(wildcard *.json) $(wildcard .*.json) .jscsrc jshintrc
-JS_SOURCES 		:= $(wildcard src/*.js)
+JS_SOURCES 		:= $(wildcard src/*.js) $(wildcard src/router/*.js)
 
 
 
